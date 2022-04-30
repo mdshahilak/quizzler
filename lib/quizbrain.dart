@@ -14,4 +14,10 @@ class QuizBrain{
   String getQs ( ){
     return _qBank[_qno].qText;
   }
+  bool getAns ( ){
+    return _qBank[_qno].qAns;
+  }
+  void intex(){
+    _qno++;
+  }
 }
